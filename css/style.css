@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: grid;
+}
+.cabecalho > img{
+    height: 60px;
+}
+.cabecalho{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.menu > li {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li > a {
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    font-weight: 600;
+    margin-right: 20px;
+}
+    .pizza{
+height: 500px;
+    }    
